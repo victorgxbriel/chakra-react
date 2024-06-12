@@ -1,0 +1,52 @@
+[
+    {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg",
+        "categories": [
+            "Brasil",
+            "Brasileirão"
+        ],
+        "description": "O Clube de Regatas do Flamengo, fundado em 1895, é um dos clubes de futebol mais icônicos do Brasil. Sua sede fica localizada na cidade do Rio de Janeiro. O Flamengo possui uma vasta e gloriosa história, marcada por conquistas em diversas competições, incluindo Campeonato Brasileiro, Copa Libertadores e Campeonato Carioca. Além do futebol, o clube também se destaca em outras modalidades esportivas, como basquete e vôlei.",
+        "title": "Flamengo",
+        "resume": "O Flamengo, um dos clubes mais famosos do Brasil, é conhecido por sua história de sucesso no futebol e em outras modalidades esportivas."
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHMUNWQEvkby4OrWybJJ0RqU-1ponyOGQ0SA&s",
+        "categories": [
+            "Espanha",
+            "La Liga"
+        ],
+        "description": "O Real Madrid Club de Fútbol, comumente conhecido como Real Madrid, é um dos clubes de futebol mais prestigiados do mundo. Fundado em 1902, o Real Madrid está sediado em Madrid, Espanha. O clube tem uma história rica e gloriosa, repleta de conquistas em competições nacionais e internacionais, incluindo a Liga dos Campeões da UEFA, o Campeonato Espanhol e a Copa do Rei. O Real Madrid é amplamente reconhecido por sua tradição de excelência, seu estilo de jogo emocionante e sua base global de torcedores apaixonados.",
+        "title": "Real Madrid",
+        "resume": "O Real Madrid é um dos clubes de futebol mais famosos e bem-sucedidos do mundo."
+    },
+    {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/FortalezaEsporteClube.svg/1200px-FortalezaEsporteClube.svg.png",
+        "categories": [
+            "Brasil",
+            "Brasileirão"
+        ],
+        "description": "O Fortaleza Esporte Clube é um dos clubes de futebol mais tradicionais do estado do Ceará, no Brasil. Fundado em 1918, o clube tem sua sede na cidade de Fortaleza. Ao longo de sua história, o Fortaleza conquistou diversos títulos regionais e nacionais, incluindo o Campeonato Cearense e a Série B do Campeonato Brasileiro. O clube possui uma forte base de torcedores e é conhecido por sua paixão e identificação com a região nordeste do Brasil.",
+        "title": "Fortaleza",
+        "resume": "O Fortaleza Esporte Clube, fundado em 1918, é um dos principais clubes de futebol do estado do Ceará."
+    },
+    {
+        "img": "https://upload.wikimedia.org/wikipedia/sco/thumb/e/eb/Manchester_City_FC_badge.svg/2048px-Manchester_City_FC_badge.svg.png",
+        "categories": [
+            "Inglaterra",
+            "Premier"
+        ],
+        "description": "O Manchester City Football Club, comumente abreviado como Man City, é um dos clubes de futebol mais proeminentes da Inglaterra e do mundo. Fundado em 1880, o clube tem sua sede na cidade de Manchester. Nos últimos anos, o Manchester City emergiu como uma potência do futebol europeu, conquistando inúmeros títulos, incluindo a Premier League, a Copa da Inglaterra e a Copa da Liga Inglesa. Sob a propriedade de investidores do Oriente Médio, o clube experimentou um período de grande sucesso e investimento em infraestrutura, jogadores e técnica. O Manchester City é conhecido por seu estilo de jogo ofensivo e por contar com uma das melhores equipes do mundo.",
+        "title": "Manchester City",
+        "resume": "O Manchester City Football Club, fundado em 1880, é um dos principais clubes de futebol da Inglaterra e do mundo."
+    },
+    {
+        "img": "https://banner2.cleanpng.com/20181119/gwo/kisspng-manchester-united-f-c-liverpool-f-c-football-man-attraktive-inspiration-manchester-united-wandtatto-5bf378129f3475.0136628415426826426521.jpg",
+        "categories": [
+            "Inglaterra",
+            "Premier"
+        ],
+        "description": "O Manchester United Football Club, frequentemente abreviado como Man United ou simplesmente United, é um dos clubes de futebol mais famosos e bem-sucedidos do mundo. Fundado em 1878, o clube tem sede na cidade de Manchester, na Inglaterra. O Manchester United é conhecido por sua rica história e tradição de sucesso, tendo conquistado inúmeros títulos, incluindo a Premier League, a Liga dos Campeões da UEFA, a FA Cup e a Copa da Liga Inglesa. O clube tem uma base de fãs globalmente diversificada e é reconhecido por sua cultura de desenvolvimento de jovens talentos e seu estilo de jogo ofensivo.",
+        "title": "Manchester United",
+        "resume": "O Manchester United Football Club, fundado em 1878, é um dos clubes mais emblemáticos do futebol mundial. "
+    }
+]
