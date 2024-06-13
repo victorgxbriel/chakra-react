@@ -1,4 +1,5 @@
-import { Box, Button, Card, CardBody, CardFooter, CardHeader, Center, ChakraProvider, Divider, HStack, Heading, Image, Stack, StackDivider, Tag, Text } from "@chakra-ui/react"
+import { Box, Button, Card, CardBody, CardFooter, CardHeader, Center, ChakraProvider, Divider, HStack, Heading, Image, Skeleton, Stack, StackDivider, Tag, Text, VStack } from "@chakra-ui/react"
+import { useEffect, useState } from "react"
 
 
 export type CardComponentP = {
@@ -17,34 +18,52 @@ export default function CardComponent(props: CardComponentP) {
         </>
     })
 
+    const [isLoaded, setIsloaded ] = useState<boolean>(false)
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsloaded(true)
+        }, 5000)
+        return () => clearTimeout(timer)
+    }, [])
+
     return (
         <>
             <ChakraProvider>
                 <Card h="50vh" w="30vh" variant="outline" boxShadow="md" boxSizing="border-box">
                     <CardBody bg="gray.100" justifyContent="space-evenly">
                         <Box >
-                        <Image 
-                            src={img}
-                            alt={"Escudo do "+ title}
-                            w="sm"
-                        />
+                        <Skeleton isLoaded={isLoaded}>
+                            <Image 
+                                src={img}
+                                alt={"Escudo do "+ title}
+                                w="sm"
+                            />
+                        </Skeleton>
                         </Box>
                         <Stack mt={6} spacing="3">
-                            <HStack spacing={3} divider={<StackDivider />}>
-                                {listCategories}
-                            </HStack>
-                            <Heading>{title}</Heading>
-                            <Text>{resume}</Text>                         
+                            <Skeleton isLoaded={isLoaded}>
+                                <HStack spacing={3} divider={<StackDivider />}>
+                                    {listCategories}
+                                </HStack>
+                            </Skeleton>
+                            <Skeleton isLoaded={isLoaded}>
+                                <Heading>{title}</Heading>
+                            </Skeleton>
+                            <Skeleton isLoaded={isLoaded}>
+                                <Text>{resume}</Text>
+                            </Skeleton>                         
                         </Stack>
                     </CardBody>
                     <Divider />
                     <CardFooter>
                         <Center>
-                            <Button variant="solid" colorScheme="blue" onClick={onSelected}>Saiba mais</Button>
+                            <Skeleton isLoaded={isLoaded}>
+                                <Button variant="solid" colorScheme="blue" onClick={onSelected}>Saiba mais</Button>
+                            </Skeleton>
                         </Center>
                     </CardFooter>
                 </Card>
-                
             </ChakraProvider>
         </>
     )
